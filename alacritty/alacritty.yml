@@ -1,0 +1,73 @@
+window:
+  decorations: full
+  title: renzynx@renzynx.space
+  dynamic_title: false
+
+schemes:
+  SeaShell: &dark
+
+    primary:
+      background: "#09141B"
+      foreground: "#DEB88D"
+
+    # Normal colors
+    normal:
+      black: "#DEB88D"
+      red: "#D15123"
+      green: "#628D98"
+      yellow: "#FCA02F"
+      blue: "#1E4950"
+      magenta: "#68D4F1"
+      cyan: "#50A3B5"
+      white: "#DEB88D"
+
+    # Bright colors
+    bright:
+      black: "#434B53"
+      red: "#D48678"
+      green: "#628D98"
+      yellow: "#FDD39F"
+      blue: "#1BBCDD"
+      magenta: "#BBE3EE"
+      cyan: "#87ACB4"
+      white: "#FEE4CE"
+
+
+
+cursor:
+  text: "#DEB88D"
+  cursor: "#1E4962"
+  
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+
+selection:
+  text: "#00000"
+  background: "#DEB88D"
+  save_to_clipboard: true
+
+font:
+  normal:
+    family: JetBrainsMono NF
+    style: Regular
+
+colors: *dark 
+
+background_opacity: 0.95
+
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
+
+
+
+shell:
+  program: C:\\Program Files\\Git\\bin\\bash
+
+debug:
+  log_level: Info
+  print_events: true
+
+mouse:
+  hide_when_typing: false
